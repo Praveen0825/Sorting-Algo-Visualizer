@@ -10,15 +10,15 @@ function vis_speed()
     var array_speed=inp_aspeed.value;
     switch(parseInt(array_speed))
     {
-        case 1: speed=8;
+        case 1: speed=10;
                 break;
-        case 2: speed=30;
+        case 2: speed=50;
                 break;
-        case 3: speed=100;
+        case 3: speed=200;
                 break;
-        case 4: speed=300;
+        case 4: speed=600;
                 break;
-        case 5: speed=1000;
+        case 5: speed=3000;
                 break;
     }
     
