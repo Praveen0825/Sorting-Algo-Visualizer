@@ -34,7 +34,7 @@ function generate_array()
         margin_size=0.1;
         var width=(100/array_size-(2*margin_size));
         divs[i].innerHTML= div_sizes[i].toString();
-        divs[i].style=" margin: 0%" + margin_size + "% 0; background-color:blue; width:" + width + "%; height:" + (div_sizes[i]) + "%; font-size:" +width/1.8+"vw; writing-mode: vertical-rl; text-orientation: upright; text-align: center; color: #e6cbad; border-radius:0 0 "+width*3+"px "+width*3+"px;";
+        divs[i].style=" margin: 0%" + margin_size + "% 0; background-color:#084b79; width:" + width + "%; height:" + (div_sizes[i]) + "%; font-size:" +width/1.8+"vw; writing-mode: vertical-rl; text-orientation: upright; text-align: center; color: #e6cbad; border-radius:0 0 "+width*3+"px "+width*3+"px;";
     }
 }
 
