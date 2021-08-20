@@ -6,11 +6,12 @@ Variable naming convention: <object>_<action>_<objectname>; Example -> Button_cl
 //Variables (BE CAREFUL THESE MIGHT BE USED IN OTHER JS FILES TOO)
 var inp_as=document.getElementById('a_size'),array_size=inp_as.value;
 var inp_gen=document.getElementById("a_generate");
+var rev=document.getElementById("rev");
 var inp_aspeed=document.getElementById("a_speed");
 //var array_speed=document.getElementById('a_speed').value;
 
 var butts_algos=document.querySelectorAll(".algos button");
-
+//butts_algos.push(rev);
 var div_sizes=[];
 var divs=[];
 var margin_size;
@@ -51,6 +52,9 @@ for(var i=0;i<butts_algos.length;i++)
 {
     butts_algos[i].addEventListener("click",runalgo);
 }
+ rev.addEventListener("click",runalgo);
+
+
 
 function disable_buttons()
 {
@@ -63,7 +67,16 @@ function disable_buttons()
         inp_as.disabled=true;
         inp_gen.disabled=true;
         inp_aspeed.disabled=true;
+        
     }
+    rev.classList=[];
+    rev.classList.add("butt_locked");
+
+    rev.disabled=true;
+   /* inp_as.disabled=true;
+    inp_gen.disabled=true;
+    inp_aspeed.disabled=true;*/
+
 }
 
 function runalgo()
@@ -85,6 +98,8 @@ function runalgo()
                         break;
         case "Heap":Heap();
                         break;
+        case "Reverse Array":reverse();
+                        break;              
     }
 
 }

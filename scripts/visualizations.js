@@ -50,6 +50,9 @@ function enable_buttons()
             inp_gen.disabled=false;
             inp_aspeed.disabled=false;
         }
+        rev.classList=[];
+        rev.classList.add("butt_unselected");
+        rev.disabled=false;
     },c_delay+=delay_time);
 }
 
