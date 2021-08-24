@@ -118,7 +118,7 @@ nav .header_right .algos button {
 
 
 nav .header_right .algos button:hover {
-  background-color:#faf8f8;
+  background-color:#9ae7e3;;
   cursor: pointer;
 }
 
@@ -139,7 +139,7 @@ nav .header_right .algos .butt_selected {
 }
 
 nav .header_right .algos .butt_selected:hover {
-  background-color: white;
+  background-color: #fff;
   cursor: pointer;
 }
 
