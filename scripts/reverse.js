@@ -2,7 +2,7 @@ function reverse()
 {
     c_delay=0;
 
-    for(var i=0;i<=array_size/2;i++)
+    for(var i=0;i<array_size/2;i++)
     {   
         var temp=div_sizes[array_size-i-1];
             div_sizes[array_size-i-1]=div_sizes[i];
