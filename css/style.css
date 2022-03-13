@@ -13,8 +13,8 @@ nav {
  /* color:  #6C7073; */
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 60%;
-      grid-template-columns: 30% 60%;
+  -ms-grid-columns: 30% 65%;
+      grid-template-columns: 30% 65%;
   -webkit-column-gap: 10%;
           column-gap: 10%;
   padding: 0% 5%;
